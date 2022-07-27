@@ -1,8 +1,10 @@
 # CRUD-Spring-Boot-Postgresql-Rest-API
 
-Make an application in spring boot which takes http request and returns json
+Make an application in spring boot which takes http request and returns json.
+
   
   CRUD an user with
+  
     user{
       name,
       dob,
@@ -36,14 +38,15 @@ Make an application in spring boot which takes http request and returns json
     Example Request:
       http://localhost:8080/create-user
 
-Request Body:
-  {
-    “name” : “john doe”,
-    “dob” : “30-01-2022”
-    “address” : “Rampura, Dhaka”,
-    “email” : “john@gmail.com”,
-    “gender” : “MALE”
-  }
+  Request Body:
+
+    {
+      “name” : “john doe”,
+      “dob” : “30-01-2022”
+      “address” : “Rampura, Dhaka”,
+      “email” : “john@gmail.com”,
+      “gender” : “MALE”
+    }
 
 You can use one of the following tool for test purpose:
     Postman: https://www.postman.com/
